@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "ethers": "^6.13.5",
     "next": "15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -17,12 +16,14 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.2.3",
+    "ethers": "^5.8.0",
     "hardhat": "^2.22.19",
     "tailwindcss": "^4",
     "typescript": "^5"
