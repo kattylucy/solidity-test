@@ -6,7 +6,36 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "outDir": "dist",
-    "types": ["node", "hardhat"]
+    "types": [
+      "node",
+      "hardhat"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "incremental": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["./scripts", "./test", "./typechain", "./hardhat.config.ts"]
+  "include": [
+    "./hardhat.config.ts",
+    "./scripts",
+    "./test",
+    "./typechain",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
